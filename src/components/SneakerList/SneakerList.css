@@ -1,0 +1,19 @@
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; /* Ajustez cet écartement selon vos préférences */
+}
+
+.result-item {
+  text-align: center;
+}
+
+.result-image {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* Ajustez la taille maximale selon vos préférences */
+}
+
+.search-bar {
+  margin-bottom: 16px; /* Ajoutez de l'espacement entre la barre de recherche et la grille */
+}

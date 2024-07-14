@@ -1,0 +1,33 @@
+
+.sneaker-image{
+    transform: scale(5.5);
+    margin-left: 400px;
+    margin-top:150px;
+    max-width: 100%; 
+    max-height: 200px;
+    object-fit: contain; 
+    display: block;
+
+}
+
+.sneaker-name{
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family:'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.sneaker-container {
+    margin-left: 100px;
+    max-width: 600px; /* Ajustez cette valeur si nécessaire */
+}
+
+.sneaker-category{margin-left: 100px;
+    font-family:'Kumbh Sans', sans-serif;
+    font-weight: 400;}
+
+.sneaker-release{
+    margin-left: 100px;
+    font-family:'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
