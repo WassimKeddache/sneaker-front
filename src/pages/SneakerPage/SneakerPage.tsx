@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./SneakerPage.css";
-import BuyOption from "../../components/BuyOptions/BuyOptions";
-import SneakerInformation from "../../components/SneakerInformation/SneakerInformation";
+import BuyOptionComponent from "../../components/BuyOptionComponent/BuyOptionComponent";
+import SneakerInformationComponent from "../../components/SneakerInformationComponent/SneakerInformationComponent";
 
 const SneakerPage: React.FC = () => {
   const { sneakerId } = useParams<{ sneakerId: string }>();
@@ -35,9 +35,10 @@ const SneakerPage: React.FC = () => {
     <div>
       {sneakerData ? (
         <div className="sneaker-page-container">
-          <SneakerInformation sneakerData={sneakerData}></SneakerInformation>
-          <BuyOption></BuyOption>
-          
+          <SneakerInformationComponent
+            sneakerData={sneakerData}
+          ></SneakerInformationComponent>
+          <BuyOptionComponent></BuyOptionComponent>
         </div>
       ) : (
         <p>Loading...</p>

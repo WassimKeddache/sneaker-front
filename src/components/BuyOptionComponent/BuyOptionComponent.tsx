@@ -1,6 +1,6 @@
-import "./BuyOptions.css";
+import "./BuyOptionComponent.css";
 
-function BuyOption() {
+function BuyOptionComponent() {
   return (
     <div>
       <div className="buy-button-container">
@@ -39,4 +39,4 @@ function BuyOption() {
   );
 }
 
-export default BuyOption;
+export default BuyOptionComponent;

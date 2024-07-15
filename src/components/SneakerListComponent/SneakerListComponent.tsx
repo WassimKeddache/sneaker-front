@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./SneakerList.css";
+import "./SneakerListComponent.css";
 import { useNavigate } from "react-router-dom";
 
 interface SneakerResults {
@@ -7,7 +7,7 @@ interface SneakerResults {
   name: string;
 }
 
-function SneakerList() {
+function SneakerListComponent() {
   const [sneakers, setSneakers] = useState<Array<SneakerResults>>([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -101,4 +101,4 @@ function SneakerList() {
   );
 }
 
-export default SneakerList;
+export default SneakerListComponent;

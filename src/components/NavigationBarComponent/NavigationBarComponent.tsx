@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"; // Assuming you use React Router for navigation
-import "./NavigationBar.css"; // Import CSS file for styling
+import "./NavigationBarComponent.css"; // Import CSS file for styling
 
-function NavigationBar() {
+function NavigationBarComponent() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -22,4 +22,4 @@ function NavigationBar() {
   );
 }
 
-export default NavigationBar;
+export default NavigationBarComponent;

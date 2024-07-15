@@ -1,6 +1,6 @@
-import "./SneakerInformation.css";
+import "./SneakerInformationComponent.css";
 
-const SneakerInformation: React.FC<SneakerInformationProps> = ({
+const SneakerInformationComponent: React.FC<SneakerInformationProps> = ({
   sneakerData,
 }) => {
   return (
@@ -19,4 +19,4 @@ const SneakerInformation: React.FC<SneakerInformationProps> = ({
   );
 };
 
-export default SneakerInformation;
+export default SneakerInformationComponent;

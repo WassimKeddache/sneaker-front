@@ -1,4 +1,4 @@
-import SneakerList from "../../components/SneakerList/SneakerList";
+import SneakerList from "../../components/SneakerListComponent/SneakerListComponent";
 
 function Home() {
   return (
