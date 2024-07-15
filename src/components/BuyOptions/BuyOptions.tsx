@@ -24,6 +24,16 @@ function BuyOption() {
           </button>
           <button className="buy-price">$ 1.900</button>
         </div>
+        <div className="buy-tuple">
+          <button className="buy-button">
+            <img
+              className="buy-image"
+              src={`/assets/fc_logo.png`}
+              alt="Flight Club Logo"
+            />
+          </button>
+          <button className="buy-price">$ 1.430</button>
+        </div>
       </div>
     </div>
   );
