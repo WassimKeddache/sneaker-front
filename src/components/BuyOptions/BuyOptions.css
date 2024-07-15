@@ -1,0 +1,34 @@
+.buy-button-container {
+    position: absolute;
+    bottom: 200px; /* Position from the bottom */
+    right: 60px; /* Position from the right */
+  }
+  
+  .buy-tuple {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .buy-price,
+  .buy-button {
+    width: 113px; /* Fixed width for both buttons */
+    height: 36px; /* Fixed height for both buttons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px;
+  }
+  
+  .buy-price {
+    background-color: #03AE00;
+    color: white;
+    border: none;
+  }
+  
+  .buy-button {
+    background: none;
+    border: none;
+  }
